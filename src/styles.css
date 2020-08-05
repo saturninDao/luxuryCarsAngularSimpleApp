@@ -1,1 +1,167 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.product-ribbon {
+    position: absolute;
+    top: 15px
+}
+
+.product-ribbon.product-ribbon-left {
+    left: 15px
+}
+
+.product-ribbon.product-ribbon-right {
+    right: 15px
+}
+
+.product-ribbon.no-space {
+    top: 0
+}
+
+.product-ribbon.no-space.product-ribbon-left {
+    left: 0
+}
+
+.product-ribbon.no-space.product-ribbon-right {
+    right: 0
+}
+
+.product-ribbon.product-ribbon--style-1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 11px;
+    z-index: 10
+}
+
+.product-description-wrapper .product-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    color: #2b2b2c
+}
+
+.product-description-wrapper .product-short-text {
+    margin: 16px 0
+}
+
+.product-description-wrapper .product-price {
+    margin: 16px 0;
+    font-size: 36px;
+    font-weight: 400;
+    color: #2b2b2c
+}
+
+.product-description-wrapper .product-short-info span {
+    display: block;
+    padding: 4px
+}
+
+.product-description-wrapper .product-short-info strong {
+    font-weight: 500;
+    color: #818a91;
+    margin-right: 5px
+}
+
+.block {
+    margin: 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative;
+    cursor: default;
+    border-radius: .25rem .25rem .25rem;
+    -moz-border-radius: .25rem .25rem .25rem
+}
+
+.block:after,
+.block:before {
+    display: table;
+    content: ""
+}
+
+.block:after {
+    clear: both
+}
+
+a>.block {
+    cursor: pointer
+}
+
+.block.no-radius>.block-image img {
+    border-radius: 0 !important
+}
+
+.block .lead {
+    margin-bottom: 0
+}
+
+.block-stack-wrapper {
+    border-radius: .25rem
+}
+
+.block-stack-wrapper .row {
+    background: #fff
+}
+
+@media (max-width: 991px) {
+    .block-stack-wrapper .row {
+        margin-bottom: 20px
+    }
+}
+
+.block .block-body {
+    padding: 1.5rem 1.5rem
+}
+
+.block .block-body>p {
+    margin-bottom: 0
+}
+
+.block .block-image {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: relative
+}
+
+.block .block-image img {
+    max-width: 100%
+}
+.z-depth-2-top, .z-depth-2-top--hover:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.bg-blue {
+    background-color: #007aff !important;
+    color: #FFF;
+}
+.product-ribbon {
+    position: absolute;
+    top: 15px;
+}
+
+.strong-600 {
+    font-weight: 600 !important;
+}
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+.heading-5 {
+    font-size: 1.125rem !important;
+}
+.heading {
+    margin: 0 0 6px;
+    padding: 0;
+    text-transform: none;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.46;
+}
+                   
